@@ -53,16 +53,17 @@ file tenfile cũng vừa được tạo bằng lệnh nano ở dòng đầu tiê
 <img width="955" height="783" alt="Screenshot 2026-04-13 204609" src="https://github.com/user-attachments/assets/8941854e-1eb7-4d1b-90fd-606af10459b4" />
 
 ## C - CẤU HÌNH DOCKER COMPOSE
+file test index.html  
 <img width="1920" height="1080" alt="Screenshot 2026-04-13 214331" src="https://github.com/user-attachments/assets/62d46732-9c32-49e6-b7f0-f5b5d72d9f85" />
-
+file cấu hình của Node-RED bằng trình soạn thảo văn bản Nano trên Ubuntu.  
 <img width="1920" height="1080" alt="Screenshot 2026-04-13 220304" src="https://github.com/user-attachments/assets/974484e0-f910-41e3-ac7a-4aa20e11c4c1" />
 
 <img width="1920" height="1080" alt="Screenshot 2026-04-13 220845" src="https://github.com/user-attachments/assets/e06e06b2-851e-402c-ade9-3b1ce3114f49" />
 
 ## E- TRIỂN KHAI (LEVEL TEST) ỨNG DỤNG  
-
+triển khai thành công các container Docker và hệ thống đang chạy ổn định.  
 <img width="1920" height="1080" alt="Screenshot 2026-04-13 221206" src="https://github.com/user-attachments/assets/b08ba376-ad52-4b5b-93e6-1e7ff857cb74" />
-
+truy cập thành công vào website chạy trên Docker thông qua địa chỉ IP máy chủ (192.168.142.128).  
 <img width="1917" height="1011" alt="Screenshot 2026-04-13 221300" src="https://github.com/user-attachments/assets/ecf42a48-65f7-4525-b8de-5431aed5dd52" />
 
 <img width="1883" height="1013" alt="Screenshot 2026-04-13 221406" src="https://github.com/user-attachments/assets/fb50c508-fb3d-4da5-a2a3-683933d41c20" />
