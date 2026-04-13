@@ -73,12 +73,14 @@ Nội dung cụ thể:
 Công việc đang làm: Viết code JavaScript để tạo một object chứa thông tin cá nhân (Hứa Thị Thanh Hiền, MSSV, lớp, ngành...).  
 Mục tiêu: Object này được gán vào msg.payload để trả về dữ liệu khi có ai đó truy cập vào endpoint /student-info (thấy ở cái node màu xanh lá bên trái).  
 Trạng thái: Đang trong cửa sổ chỉnh sửa "Edit function node", chỉ cần nhấn Done rồi Deploy là API này sẽ hoạt động.  
-<img width="1913" height="1014" alt="Screenshot 2026-04-13 221701" src="https://github.com/user-attachments/assets/a9419efb-a6eb-484f-95ba-f0b74fb1b9fb" />
+<img width="1913" height="1014" alt="Screenshot 2026-04-13 221701" src="https://github.com/user-attachments/assets/a9419efb-a6eb-484f-95ba-f0b74fb1b9fb" /> 
 
 <img width="1912" height="1021" alt="Screenshot 2026-04-13 221719" src="https://github.com/user-attachments/assets/87bdc5f8-b446-43c2-964c-b75295057a5e" />  
 Node [get] /student-info: Đây là điểm tiếp nhận yêu cầu (HTTP Input). Khi truy cập địa chỉ IP của server kèm đuôi này, luồng sẽ bắt đầu chạy.  
 Node function 1: Nơi chứa đoạn code JavaScript lưu thông tin cá nhân mà vừa viết ở bước trước.  
-Node http: Đây là node phản hồi (HTTP Response). Nó có nhiệm vụ gửi kết quả từ node function trả về trình duyệt cho người xem.  
+
+Node http: Đây là node phản hồi (HTTP Response). Nó có nhiệm vụ gửi kết quả từ node function trả về trình duyệt cho người xem.   
+
 <img width="1920" height="1080" alt="Screenshot 2026-04-13 221807" src="https://github.com/user-attachments/assets/ec38230e-106e-40e8-8874-9af3c6b0f6c4" />
 
 <img width="1920" height="1080" alt="Screenshot 2026-04-13 221846" src="https://github.com/user-attachments/assets/7bf31a89-c482-4f07-8fe5-4fc4bc6608cc" />
