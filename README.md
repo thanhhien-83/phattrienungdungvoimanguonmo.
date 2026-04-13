@@ -50,17 +50,33 @@ file tenfile cũng vừa được tạo bằng lệnh nano ở dòng đầu tiê
 <img width="907" height="720" alt="Screenshot 2026-04-13 204310" src="https://github.com/user-attachments/assets/9f9644c8-7d82-4eff-830b-4376effb905c" />
 
 <img width="955" height="783" alt="Screenshot 2026-04-13 204609" src="https://github.com/user-attachments/assets/d8dd4b5a-a891-4ae6-9689-81eebc4ebe57" />
+<img width="955" height="783" alt="Screenshot 2026-04-13 204609" src="https://github.com/user-attachments/assets/8941854e-1eb7-4d1b-90fd-606af10459b4" />
 
 ## C - CẤU HÌNH DOCKER COMPOSE
+<img width="1920" height="1080" alt="Screenshot 2026-04-13 214331" src="https://github.com/user-attachments/assets/62d46732-9c32-49e6-b7f0-f5b5d72d9f85" />
 
+<img width="1920" height="1080" alt="Screenshot 2026-04-13 220304" src="https://github.com/user-attachments/assets/974484e0-f910-41e3-ac7a-4aa20e11c4c1" />
 
+<img width="1920" height="1080" alt="Screenshot 2026-04-13 220845" src="https://github.com/user-attachments/assets/e06e06b2-851e-402c-ade9-3b1ce3114f49" />
+## E- TRIỂN KHAI (LEVEL TEST) ỨNG DỤNG
 
+<img width="1920" height="1080" alt="Screenshot 2026-04-13 221206" src="https://github.com/user-attachments/assets/b08ba376-ad52-4b5b-93e6-1e7ff857cb74" />
 
+<img width="1917" height="1011" alt="Screenshot 2026-04-13 221300" src="https://github.com/user-attachments/assets/ecf42a48-65f7-4525-b8de-5431aed5dd52" />
 
+<img width="1883" height="1013" alt="Screenshot 2026-04-13 221406" src="https://github.com/user-attachments/assets/fb50c508-fb3d-4da5-a2a3-683933d41c20" />
 
+<img width="1913" height="1014" alt="Screenshot 2026-04-13 221701" src="https://github.com/user-attachments/assets/a9419efb-a6eb-484f-95ba-f0b74fb1b9fb" />
 
+<img width="1912" height="1021" alt="Screenshot 2026-04-13 221719" src="https://github.com/user-attachments/assets/87bdc5f8-b446-43c2-964c-b75295057a5e" />
 
+<img width="1920" height="1080" alt="Screenshot 2026-04-13 221807" src="https://github.com/user-attachments/assets/ec38230e-106e-40e8-8874-9af3c6b0f6c4" />
 
+<img width="1920" height="1080" alt="Screenshot 2026-04-13 221846" src="https://github.com/user-attachments/assets/7bf31a89-c482-4f07-8fe5-4fc4bc6608cc" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-04-13 224321" src="https://github.com/user-attachments/assets/3b80baff-d66b-4656-a258-da63df2f3743" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-04-13 225037" src="https://github.com/user-attachments/assets/1ed5b71a-03b0-4608-9223-31adcd059c24" />
 
 
 
