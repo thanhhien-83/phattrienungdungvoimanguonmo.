@@ -51,6 +51,7 @@ file tenfile cũng vừa được tạo bằng lệnh nano ở dòng đầu tiê
 
 <img width="955" height="783" alt="Screenshot 2026-04-13 204609" src="https://github.com/user-attachments/assets/d8dd4b5a-a891-4ae6-9689-81eebc4ebe57" />
 
+## C - CẤU HÌNH DOCKER COMPOSE
 
 
 
