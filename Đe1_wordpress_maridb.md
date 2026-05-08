@@ -1,4 +1,4 @@
-## Đề 1: Maridb + wordpress ----> website + plugin
+## Đề 1: MARIDB + WORDPRESS -----> WEBSITE + PLUGIN
 ## : HỨA THỊ THANH HIỀN
 ## LỚP: k58KTP
 ## MSVV: K225480106016
