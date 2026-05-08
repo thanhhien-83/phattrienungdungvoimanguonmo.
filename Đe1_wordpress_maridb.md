@@ -54,29 +54,30 @@ Hình 18:
 <img width="1919" height="1079" alt="18" src="https://github.com/user-attachments/assets/413cc21d-b6ef-42ae-bb08-1c6a6a3490eb" />
 
 Hình 19:  
-<img width="1919" height="1079" alt="19" src="https://github.com/user-attachments/assets/9fb1b506-13af-46da-93b3-23214d2d3f9b" />
+<img width="1919" height="1078" alt="18 (2)" src="https://github.com/user-attachments/assets/a7b305c0-bd9b-4e79-8621-71f599d4ec09" />
 
 Hình 20:  
-<img width="1919" height="1079" alt="20" src="https://github.com/user-attachments/assets/2a10eef9-cc34-4f2c-b6c6-920c9f2c7a35" />
+<img width="1919" height="1079" alt="19" src="https://github.com/user-attachments/assets/9fb1b506-13af-46da-93b3-23214d2d3f9b" />
 
 Hình 21:  
-<img width="1919" height="1079" alt="21" src="https://github.com/user-attachments/assets/66e819e4-045c-40bf-934d-38fe2edb9c1c" />
+<img width="1919" height="1079" alt="20" src="https://github.com/user-attachments/assets/2a10eef9-cc34-4f2c-b6c6-920c9f2c7a35" />
 
 Hình 22:  
-<img width="1919" height="1079" alt="22" src="https://github.com/user-attachments/assets/53cf0154-e1df-4cd0-94dc-731f08d4e67e" />
+<img width="1919" height="1079" alt="21" src="https://github.com/user-attachments/assets/66e819e4-045c-40bf-934d-38fe2edb9c1c" />
 
 Hình 23:  
-<img width="1919" height="1079" alt="23" src="https://github.com/user-attachments/assets/a4081982-039a-4a4d-8069-347c570d237e" />
+<img width="1919" height="1079" alt="22" src="https://github.com/user-attachments/assets/53cf0154-e1df-4cd0-94dc-731f08d4e67e" />
 
 Hình 24:  
-<img width="1919" height="1079" alt="24" src="https://github.com/user-attachments/assets/a919eb46-d8f5-4266-ae5a-1d531bb7eb31" />
+<img width="1919" height="1079" alt="23" src="https://github.com/user-attachments/assets/a4081982-039a-4a4d-8069-347c570d237e" />
 
 Hình 25:  
-<img width="1919" height="1079" alt="25" src="https://github.com/user-attachments/assets/5583751a-1595-4467-a175-f89911b8b0ed" />
+<img width="1919" height="1079" alt="24" src="https://github.com/user-attachments/assets/a919eb46-d8f5-4266-ae5a-1d531bb7eb31" />
 
 Hình 26:  
-<img width="1919" height="1076" alt="26" src="https://github.com/user-attachments/assets/3d11e78d-b127-4628-ba0a-526d793e3318" />
+<img width="1919" height="1079" alt="25" src="https://github.com/user-attachments/assets/5583751a-1595-4467-a175-f89911b8b0ed" />
 
 Hình 27:  
-<img width="1919" height="1078" alt="18 (2)" src="https://github.com/user-attachments/assets/923b9663-6259-45a0-83c5-989e702edb50" />
+<img width="1919" height="1076" alt="26" src="https://github.com/user-attachments/assets/3d11e78d-b127-4628-ba0a-526d793e3318" />
+
 
