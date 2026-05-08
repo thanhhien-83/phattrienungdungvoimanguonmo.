@@ -1,4 +1,7 @@
-## Đề 1:
+### Đề 1: Maridb + wordpress ----> website + plugin
+## : HỨA THỊ THANH HIỀN
+## LỚP: k58KTP
+## MSVV: K225480106016
 Hình 1: 
 <img width="1181" height="347" alt="h1" src="https://github.com/user-attachments/assets/4bbde034-e629-4565-ac84-3fa364b2bab1" />
 Hình 2: 
