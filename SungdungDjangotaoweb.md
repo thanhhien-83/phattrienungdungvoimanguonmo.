@@ -1,23 +1,43 @@
 ## PHÁT TRIỂN ỨNG DỤNG CỘNG MÃ NGUỒN MỞ (DJANGO + XÂY DỰNG WEBSITE QUẢN LÝ TIỆM CẦM ĐỒ)
-## TÊN: HỨA THỊ THANH HIỀN
-## LỚP: K58KTP
-## MSSV: K225480106016
+### TÊN: HỨA THỊ THANH HIỀN
+### LỚP: K58KTP
+### MSSV: K225480106016
 
-## BÀI LÀM
+## <p align="center">BÀI LÀM</p>
 
-1. Chuẩn bị Ubuntu
-2. Hình 1
+### 1. Chuẩn bị Ubuntu
+- Kiểm tra phiên bản Docker: `docker --version`
+
+- Kiểm tra phiên bản Docker Compose: `docker compose version`
+
 <img width="1082" height="240" alt="1" src="https://github.com/user-attachments/assets/aa811dac-e8ba-4ca5-b8bc-b4d6bf1ba6a1" />
-Hình 2:
+
+***Hình 1: Kiểm tra phiên bản Docker và Docker Compoes***
+
+- Tạo thư mục `mkdir camdo_project`
+
+- Trỏ vào thư mục `cd camdo_project`
+
 <img width="1240" height="747" alt="2" src="https://github.com/user-attachments/assets/2accae42-da00-4ccb-8c82-5b017a3e938f" />
 
-Hình 3:
+***Hình 2: Tạo thư mục dự án camdo_project***
+
 <img width="1105" height="757" alt="3" src="https://github.com/user-attachments/assets/e7dd90cd-fb01-4b7e-85f2-d00ab5096ea4" />
 
-Hình 4:
+***Hình 3: Tạo thư mục django và kiểm tra danh sách thư mục bằng lệnh `ls`***
+
+- Vào thư mục Django: `cd django`
+
+- Tạo file DockerFile: `nano Dockerfile`
+
+- Thêm nội dung cho File: ***dockerfile***. Sử dụng `Ctrl + O` -> Enter -> `Ctrl + X`.
+
 <img width="1478" height="758" alt="4" src="https://github.com/user-attachments/assets/79a14e24-15cd-4e59-8c32-bc373f7f4c0d" />
 
+***Hình 4: Cấu hình tạo file dockerfile***
+
 Hình 5: 
+
 <img width="1478" height="756" alt="5" src="https://github.com/user-attachments/assets/99304f56-8a9b-4b30-8473-0fb3b1add25e" />
 
 Hình 6:
