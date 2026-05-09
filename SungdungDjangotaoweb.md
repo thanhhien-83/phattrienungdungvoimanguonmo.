@@ -300,7 +300,9 @@ Bộ lọc và Tìm kiếm: Thiết lập các thanh tìm kiếm (theo tên khá
 
 ***4. Kết luận***
 
-- Đây là một dự án hoàn thiện, thể hiện tư duy Full-stack từ việc thiết kế Database, xử lý Logic Backend, xây dựng Frontend trực quan cho đến việc cấu hình hạ tầng mạng và tên miền chuyên nghiệp. - Đề tài này là minh chứng rõ nét cho khả năng làm chủ công nghệ và giải quyết bài toán thực tế của người thực hiện.
+- Đây là một dự án hoàn thiện, thể hiện tư duy Full-stack từ việc thiết kế Database, xử lý Logic Backend, xây dựng Frontend trực quan cho đến việc cấu hình hạ tầng mạng và tên miền chuyên nghiệp.
+
+- Đề tài này là minh chứng rõ nét cho khả năng làm chủ công nghệ và giải quyết bài toán thực tế của người thực hiện.
 
 ## <p align="center">KẾT THÚC</p>
 
