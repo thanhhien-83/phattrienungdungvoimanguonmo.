@@ -4,6 +4,7 @@
 ## MSSV: K225480106016
 
 ## BÀI LÀM
+
 1. Chuẩn bị Ubuntu
 2. Hình 1
 <img width="1082" height="240" alt="1" src="https://github.com/user-attachments/assets/aa811dac-e8ba-4ca5-b8bc-b4d6bf1ba6a1" />
