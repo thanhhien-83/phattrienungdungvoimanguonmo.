@@ -31,7 +31,6 @@
 
 ***Hình 5:***
 
-
 <img width="1917" height="921" alt="5" src="https://github.com/user-attachments/assets/ce21e49e-238f-4110-967b-709e948bcc23" />
 
 ***Hình 6:***  
@@ -56,57 +55,80 @@
 <img width="1920" height="1080" alt="9" src="https://github.com/user-attachments/assets/b3f00486-de86-4985-a44a-9ec273e28c67" />
 
 ***Hình 10:***
+
+- Đăng ký tên cửa hàng website thương mại điện tử 
 <img width="1920" height="1080" alt="10" src="https://github.com/user-attachments/assets/1ca99657-4983-41b9-be9d-5b34cfd80a75" />
 
 ***Hình 11:***
+
+- Đăng ký thành công yêu cầu đăng nhập lại để xác minh
 <img width="1920" height="1080" alt="11" src="https://github.com/user-attachments/assets/26e84e07-3f46-4e8c-a535-1293d984757c" />
 
 ***Hình 12***:  
+
 <img width="1920" height="1080" alt="12" src="https://github.com/user-attachments/assets/532d9eea-0cc5-4778-a4d6-65cc581918a4" />
 
 ***Hình 13:***  
+
+- Cài đặt WooCommerce để vào thiết kế website thương mại điện tử
 <img width="1920" height="1080" alt="13" src="https://github.com/user-attachments/assets/a065fdf2-0489-49cd-b4e8-bd9897af0439" />
 
 ***Hình 14:***  
+
 <img width="1920" height="1080" alt="14" src="https://github.com/user-attachments/assets/b5872ccc-e053-44ff-9012-6a8965ce4857" />
 
 ***Hình 15:*** 
+
 <img width="1920" height="1080" alt="15" src="https://github.com/user-attachments/assets/3188e64a-3daf-404a-9dd0-5639a8bddb00" />
 
 ***Hình 16:***  
+
 <img width="1920" height="1080" alt="16" src="https://github.com/user-attachments/assets/60b95e80-15f1-4a0d-a22b-7623091578c4" />
 
 ***Hình 17:*** 
+
+- Trong quá trình thiết lập WooCommerce, dự án chủ động từ chối các plugin phụ trợ, để tiết kiệm dung lượng cho Ram và Docker
 <img width="1920" height="1080" alt="17" src="https://github.com/user-attachments/assets/d5c519ba-fed1-4939-9ed0-c726d6186224" />
 
 ***Hình 18:***  
+
 <img width="1919" height="1079" alt="18" src="https://github.com/user-attachments/assets/413cc21d-b6ef-42ae-bb08-1c6a6a3490eb" />
 
 ***Hình 19:***  
+
 <img width="1919" height="1078" alt="18 (2)" src="https://github.com/user-attachments/assets/a7b305c0-bd9b-4e79-8621-71f599d4ec09" />
 
 ***Hình 20:***  
+
+- Hóa đơn thanh toán
 <img width="1919" height="1079" alt="19" src="https://github.com/user-attachments/assets/9fb1b506-13af-46da-93b3-23214d2d3f9b" />
 
-***Hình 21:***
 <img width="1919" height="1079" alt="20" src="https://github.com/user-attachments/assets/2a10eef9-cc34-4f2c-b6c6-920c9f2c7a35" />
 
-***Hình 22:***  
+***Hình 21:***  
+
 <img width="1919" height="1079" alt="21" src="https://github.com/user-attachments/assets/66e819e4-045c-40bf-934d-38fe2edb9c1c" />
 
-***Hình 23:***  
+***Hình 22:***  
+
+- Thông tin bảng người dùng
 <img width="1919" height="1079" alt="22" src="https://github.com/user-attachments/assets/53cf0154-e1df-4cd0-94dc-731f08d4e67e" />
 
-***Hình 24:***  
+***Hình 23:***  
+
 <img width="1919" height="1079" alt="23" src="https://github.com/user-attachments/assets/a4081982-039a-4a4d-8069-347c570d237e" />
 
-***Hình 25:***  
+***Hình 24:***  
+
 <img width="1919" height="1079" alt="24" src="https://github.com/user-attachments/assets/a919eb46-d8f5-4266-ae5a-1d531bb7eb31" />
 
-***Hình 26:***  
+***Hình 25:***  
+
 <img width="1919" height="1079" alt="25" src="https://github.com/user-attachments/assets/5583751a-1595-4467-a175-f89911b8b0ed" />
 
-***Hình 27:*** 
+***Hình 26:*** 
+
+- Bảng hóa đơn
 <img width="1919" height="1076" alt="26" src="https://github.com/user-attachments/assets/3d11e78d-b127-4628-ba0a-526d793e3318" />
 
 
