@@ -5,8 +5,8 @@
 ## Bài tập 03:
 
 SỬ DỤNG WEB SITE WORDPRESS ĐỂ TẠO  
-Tạo 1 bài viết trong wordpress giới thiệu về bản thân sinh viên: thông tin cá nhân, sở hữu, ... bài viết có thể chứa hình ảnh, âm thanh, video, ...  
-Tạo 1 bài viết trong wordpress giới thiệu về các ngành học mà em yêu thích trong trường TNUT.  
+- Tạo 1 bài viết trong wordpress giới thiệu về bản thân sinh viên: thông tin cá nhân, sở hữu, ... bài viết có thể chứa hình ảnh, âm thanh, video, ...  
+- Tạo 1 bài viết trong wordpress giới thiệu về các ngành học mà em yêu thích trong trường TNUT.  
 thời hạn: 23h59 ngày 12 tháng 5 năm 2026.  
 
 <img width="1472" height="772" alt="1" src="https://github.com/user-attachments/assets/fb654be2-35c9-47a4-991b-aff851382ac9" />
