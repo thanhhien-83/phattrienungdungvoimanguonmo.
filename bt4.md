@@ -89,10 +89,10 @@ tạo tài khoản admin :
 
 <img width="1918" height="1027" alt="28" src="https://github.com/user-attachments/assets/791dc247-fe74-4406-b028-5b72c7dc019a" />
 
+4. Nhận xét kết quả đạt được:  
+- Đã triển khai thành công hệ thống gồm MariaDB, PhpMyAdmin, WordPress, Cloudflared và n8n bằng Docker Compose trên Ubuntu. Các service hoạt động ổn định và được public ra Internet thông qua Cloudflare Tunnel.  
 
-4. Kết quả: 
-5. Nhận xét kết quả đạt được:  
-Triển khai thành công Stack dịch vụ mã nguồn mở gồm MariaDB, phpMyAdmin, WordPress và n8n chạy biệt lập trên môi trường Docker. Kết nối HTTPS qua Cloudflare Tunnel hoạt động ổn định.  
-Tự động hóa hoàn chỉnh: Xây dựng thành công luồng dữ liệu khép kín tự động 24/7: Người dùng nhắn tin (Telegram Bot) ➔ Trí tuệ nhân tạo (Google Gemini AI) xử lý & sinh cấu trúc JSON/HTML ➔ Code   JavaScript dọn dẹp, xử lý chuỗi ➔ Tự động xuất bản bài viết (WordPress API).  
+- Cấu hình thành công workflow tự động:  
+- Telegram Bot → Google Gemini AI → xử lý dữ liệu bằng JavaScript → tự động đăng bài lên WordPress bằng n8n.  
 
-Tối ưu hóa và Xử lý lỗi: Hệ thống được cấu hình System Message chặt chẽ giúp ép văn phong chuẩn xác hơn, xử lý chuỗi bằng JavaScript giúp hệ thống vận hành mượt mà.  
+- Qua bài thực hành, em đã hiểu cách sử dụng Docker, Cloudflare Tunnel, WordPress, n8n và tích hợp AI để xây dựng hệ thống tự động hóa thực tế.  
