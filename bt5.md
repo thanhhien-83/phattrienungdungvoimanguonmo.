@@ -16,34 +16,38 @@ Docker là một nền tảng mã nguồn mở cho phép đóng gói, triển kh
 Docker-compose là công cụ giúp định nghĩa và quản lý đa container. Dưới đây là các từ khóa cốt lõi chia theo thành phần:
 
 ## Cấu trúc tổng thể
-- version: Ý nghĩa: Chỉ định phiên bản định dạng cấu trúc của file Docker Compose được sử dụng (ví dụ: '3', '3.8'). Phiên bản này sẽ quyết định các tính năng và cú pháp nào được phép chạy trong file.
+- version: Ý nghĩa: Chỉ định phiên bản định dạng cấu trúc của file Docker Compose được sử dụng (ví dụ: '3', '3.8'). Phiên bản này sẽ quyết định các tính năng và cú pháp nào được phép chạy trong file.  
 
-Ví dụ minh họa:
+Ví dụ minh họa:  
 
-YAML
-version: '3.8'
+YAML  
+version: '3.8'  
 
-- services:
+- services:  
 Ý nghĩa: Định nghĩa danh sách tất cả các container (dịch vụ) riêng biệt cấu thành nên ứng dụng. Đây là thành phần bắt buộc và quan trọng nhất của file compose.
-Ví dụ minh họa:
+ 
+Ví dụ minh họa:  
 
-YAML
-services:
-  nodered:
-    image: nodered/node-red:latest
+YAML  
+services:  
+  nodered:  
+    image: nodered/node-red:latest  
     
-- networks: 
-Ý nghĩa: Định nghĩa các mạng ảo độc lập ở cấp độ toàn cục. Các mạng này được tạo ra để kết nối hoặc cô lập các nhóm container với nhau.
-Ví dụ minh họa:
+- networks:
+  
+Ý nghĩa: Định nghĩa các mạng ảo độc lập ở cấp độ toàn cục. Các mạng này được tạo ra để kết nối hoặc cô lập các nhóm container với nhau.  
+
+Ví dụ minh họa:  
 
 YAML
 networks:
   monitor_net:
     driver: bridge
     
-- volumes: 
+- volumes:  
 Ý nghĩa: Định nghĩa các vùng lưu trữ dữ liệu bền vững ở cấp độ toàn cục. Các ổ đĩa ảo này tồn tại độc lập với vòng đời của container, giúp dữ liệu không bị mất khi container bị xóa hoặc cập nhật.
-Ví dụ minh họa:
+
+Ví dụ minh họa:  
 
 YAML
 volumes:
