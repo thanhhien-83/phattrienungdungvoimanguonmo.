@@ -54,7 +54,7 @@ YAML
 volumes:
   db_data:
 
-# II. CÁC KEYWORD CHI TIẾT TRONG MỘT SERVICE (CONTAINER)
+# 2.1. CÁC KEYWORD CHI TIẾT TRONG MỘT SERVICE (CONTAINER)
 - image  
 Ý nghĩa: Chỉ định Docker Image cụ thể được tải về từ Docker Hub (hoặc một Registry riêng) để khởi tạo nên container đó.  
 Ví dụ minh họa:  
@@ -122,7 +122,7 @@ Ví dụ minh họa:
 
 YAML
 restart: always
-# III. CÁC KEYWORD CHI TIẾT TRONG NETWORKS (MẠNG ẢO)
+# 2.2. CÁC KEYWORD CHI TIẾT TRONG NETWORKS (MẠNG ẢO)
 - driver  
 Ý nghĩa: Chỉ định loại driver mạng ảo sẽ sử dụng. Phổ biến nhất là bridge (tạo mạng cầu nối nội bộ trên một máy host) hoặc overlay (nếu chạy đa máy chủ với cấu trúc phức tạp).  
 Ví dụ minh họa:
@@ -135,7 +135,7 @@ Ví dụ minh họa:
 
 YAML
 external: true
-# IV. CÁC KEYWORD CHI TIẾT TRONG VOLUMES (Ổ ĐĨA LƯU TRỮ)
+# 2.3. CÁC KEYWORD CHI TIẾT TRONG VOLUMES (Ổ ĐĨA LƯU TRỮ)
 - driver  
 Ý nghĩa: Chỉ định driver quản lý lưu trữ dữ liệu. Mặc định hệ thống sử dụng local (lưu trực tiếp trên ổ cứng của máy host), nhưng có thể mở rộng sang các driver lưu trữ đám mây hoặc ổ đĩa mạng tập trung.  
 Ví dụ minh họa:
@@ -151,3 +151,12 @@ driver_opts:
   type: "none"
   o: "bind"
   device: "/home/user/data"
+
+# 3. Ưu điểm khi triển khai ứng dụng sử dụng Docker
+- Tính nhất quán (Consistency): Giải quyết triệt để lỗi kinh điển "Chạy trên máy em ngon lành nhưng lên máy chủ lại lỗi". Môi trường dev, test, và production là y hệt nhau.
+
+- Nhẹ và Hiệu năng cao (Lightweight): Container khởi động trong vài giây, tốn ít RAM/CPU hơn rất nhiều so với máy ảo VM vì không phải gánh cả HĐH riêng.
+
+- Dễ dàng quản lý & Cô lập (Isolation): Mỗi ứng dụng chạy trong không gian riêng, lỗi của container này không ảnh hưởng đến container khác hoặc máy host.
+
+- Mở rộng nhanh chóng (Scalability): Dễ dàng nhân bản (scale) tăng số lượng container lên khi lượng truy cập tăng.
