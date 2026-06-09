@@ -265,11 +265,17 @@ docker-compose up -d
 <img width="1103" height="632" alt="6" src="https://github.com/user-attachments/assets/41ad5a99-0e6b-485b-8bf8-e611d86c9d6a" />
 - Xây dựng luồng logic so sánh điều kiện biên và gửi cảnh báo tự động về nhóm chat Telegram trên Node-RED.  
 <img width="1005" height="560" alt="7" src="https://github.com/user-attachments/assets/556c47f6-0f47-4ffe-9239-dadf70c37fe9" />
-- Kiểm tra kết quả tin nhắn cảnh báo thời gian thực được gửi tự động về nhóm chat Telegram.   
+
+- Kiểm tra kết quả tin nhắn cảnh báo thời gian thực được gửi tự động về nhóm chat Telegram.
+
 <img width="969" height="568" alt="8" src="https://github.com/user-attachments/assets/50ed463d-9406-4ac5-87ec-0be5e6e8b18f" />
--  Kiểm tra giao diện đồ thị trực quan hóa chuỗi dữ liệu lịch sử giá vàng trên Grafana.  
+
+-  Kiểm tra giao diện đồ thị trực quan hóa chuỗi dữ liệu lịch sử giá vàng trên Grafana.
+  
 <img width="1494" height="283" alt="9" src="https://github.com/user-attachments/assets/499fe2d0-613c-43ff-ae2f-90c3c64cfdc3" />
-- Kiểm tra giao diện giám sát tổng hợp (Dashboard Front-end) tích hợp biểu đồ thời gian thực.
+
+- Tiến hành dừng và xóa sạch toàn bộ các container đang chạy trên hệ thống nhằm giả lập sự cố mất mát dữ liệu để chuẩn bị cho bước thử nghiệm khôi phục.
+  
 <img width="506" height="154" alt="10" src="https://github.com/user-attachments/assets/69919d0e-b08b-4951-adcc-8aac5a92914f" />
 
 
