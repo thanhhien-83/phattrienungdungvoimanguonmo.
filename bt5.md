@@ -160,3 +160,110 @@ driver_opts:
 - Dễ dàng quản lý & Cô lập (Isolation): Mỗi ứng dụng chạy trong không gian riêng, lỗi của container này không ảnh hưởng đến container khác hoặc máy host.
 
 - Mở rộng nhanh chóng (Scalability): Dễ dàng nhân bản (scale) tăng số lượng container lên khi lượng truy cập tăng.
+
+# Dưới đây là các bước chi tiết, tường minh để triển khai ứng dụng từ laptop cá nhân lên máy chủ thật không có kết nối internet (quy trình Offline Deployment):
+
+## BƯỚC 1: ĐÓNG GÓI CÁC DOCKER IMAGES TẠI MÁY CÁ NHÂN (NƠI CÓ INTERNET)
+
+Sau khi đã khởi chạy và kiểm thử ứng dụng chạy ổn định trên laptop, em tiến hành gom tất cả các Docker Image có trong file docker-compose.yml và nén lại thành một file .tar duy nhất.  
+
+Mở Terminal tại laptop và chạy câu lệnh sau:  
+
+Bash
+docker save -o monitor_app_images.tar mariadb:10.6 influxdb:1.8 nodered/node-red:latest grafana/grafana:latest nginx:latest monitor_flask_api:latest  
+Ý nghĩa: Lệnh này sẽ xuất (save) danh sách các image được chỉ định thành một file nén có tên là monitor_app_images.tar.  
+
+## BƯỚC 2: CHUẨN BỊ VÀ SAO CHÉP MÃ NGUỒN SANG THIẾT BỊ LƯU TRỮ
+
+Em sao chép toàn bộ các thư mục cấu hình và file nén image vào một thiết bị lưu trữ ngoại vi (USB hoặc ổ cứng di động). Các file cần copy bao gồm:  
+
+File nén image: monitor_app_images.tar vừa tạo ở Bước 1.  
+
+File cấu hình hệ thống: docker-compose.yml.  
+
+Các thư mục chứa mã nguồn hoặc cấu hình tĩnh: Thư mục frontend/ (chứa file index.html) và thư mục backend/ (chứa app.py, Dockerfile nếu cần lưu trữ lại cấu hình build).  
+
+## BƯỚC 3: CÀI ĐẶT DOCKER OFFLINE TRÊN MÁY CHỦ THẬT
+
+Vì máy chủ không có internet, em không thể dùng lệnh apt-get install hay yum install thông thường.  
+
+Tại máy có mạng, truy cập vào trang chủ Docker để tải về file cài đặt offline (gói .deb đối với Ubuntu/Debian hoặc .rpm đối với CentOS/RHEL) cùng với file thực thi của docker-compose.  
+
+Copy các file cài đặt này qua USB sang máy chủ.  
+
+Tại máy chủ, tiến hành cài đặt các gói bằng lệnh cài đặt local:  
+
+Đối với Ubuntu: sudo dpkg -i đường_dẫn_file.deb  
+
+Đối với CentOS: sudo rpm -i đường_dẫn_file.rpm  
+
+Cấp quyền thực thi cho docker-compose: sudo chmod +x /usr/local/bin/docker-compose  
+
+## BƯỚC 4: NẠP (LOAD) CÁC DOCKER IMAGES VÀO MÁY CHỦ
+
+Cắm USB vào máy chủ thật, sao chép toàn bộ các file dự án vào một thư mục làm việc (ví dụ: /home/user/app_monitor).  
+
+Mở Terminal của máy chủ, di chuyển vào thư mục chứa file .tar và thực hiện lệnh nạp image:  
+
+Bash
+docker load -i monitor_app_images.tar
+Ý nghĩa: Docker sẽ giải nén file monitor_app_images.tar và nạp toàn bộ các image vào kho lưu trữ cục bộ (Local Registry) của máy chủ. Em có thể kiểm tra lại bằng lệnh docker images.  
+
+## BƯỚC 5: KHỞI CHẠY HỆ THỐNG TRÊN MÁY CHỦ KHÔNG CÓ MẠNG
+
+Tại Terminal của máy chủ, di chuyển vào đúng thư mục chứa file docker-compose.yml và các thư mục code đi kèm, sau đó gõ lệnh khởi chạy:  
+
+Bash
+docker-compose up -d
+Ý nghĩa: Docker Compose sẽ đọc cấu hình trong file yaml, tự động nhận diện các image đã được nạp sẵn ở Bước 4 (mà không cần lên Docker Hub tải về) để tạo các mạng ảo, ổ đĩa ảo và thiết lập các container chạy ngầm (-d) hoàn chỉnh.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
